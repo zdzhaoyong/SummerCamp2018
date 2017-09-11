@@ -14,7 +14,7 @@ slam： SLAM入门课程
 ai  ： AI入门课程
 
 |课程文件夹（主讲人）|课程描述|
-|-|-|
+| ------------- |:-------------:|
 |tool/linux     |Linux入门，常用工具介绍，Bash命令ShellToolkit，cd,ls,echo,apt,ssh,dpkg,locate等，Bash编程实践|
 |tool/git       |git工具介绍和协作开发实践|
 |tool/markdown  |markdown语言介绍和使用实验课程|
@@ -55,7 +55,7 @@ ai  ： AI入门课程
 ## 学习课表（2018-07-08月）
 
 |日期|上午|下午|晚上|
-|-|-|-|-|
+|---|:-|:-|:-|
 |1  |tool/linux       |tool/git           ||
 |2  |tool/markdown    |cpp/helloc         |tool/notebook|
 |3  |slam/summary     |cpp/hellocpp       |tool/cmake|
