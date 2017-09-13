@@ -31,47 +31,48 @@ Lesson中途可以适当休息，或者安排其他活动。以下是全部Lesso
 
 |课程文件夹|课程描述|课程类型|主讲人|
 | ------------- |:-------------|:--------:|:--------:|
-|tool/linux     |Linux入门，常用工具介绍，Bash命令ShellToolkit，cd,ls,echo,apt,ssh,dpkg,locate等，Bash编程实践|Tutorial|赵勇|
-|tool/git       |git工具介绍和协作开发实践|Lab|
-|tool/markdown  |markdown语言介绍和使用实验课程|Lab|
-|tool/notebook  |ipython notebook介绍和使用实验课程|Lab|
-|tool/cmake     |介绍编译原理，引入CMake，并练习使用cmake进行编译，介绍PICMake，练习使用PICMake进行编译，Linux下编写简单包含三方库本地库的工程，并分别用Makefile，qmake，CMake编译|Lab|
-|tool/latex     |latex语言介绍和学习实践|Lab|
-|tool/mendeley  |mendeley文档管理|Lab|
-|tool/docker    |docker入门介绍|Lab|
+|tool/linux     |Linux入门，常用工具介绍，Bash命令ShellToolkit，cd,ls,echo,apt,ssh,dpkg,locate等，Bash编程实践|Tutorial||
+|tool/git       |git工具介绍和协作开发实践|Lab|张咪|
+|tool/markdown  |markdown语言介绍和使用实验课程|Lab|马文科|
+|tool/notebook  |ipython notebook介绍和使用实验课程|Lab|AI组|
+|tool/cmake     |介绍编译原理，引入CMake，并练习使用cmake进行编译，介绍PICMake，练习使用PICMake进行编译，Linux下编写简单包含三方库本地库的工程，并分别用Makefile，qmake，CMake编译|Lab|[王伟]|
+|tool/latex     |latex语言介绍和学习实践|Lab|张咪|
+|tool/docmanage |mendeley等文档管理软件|Lab|张咪|
+|tool/docker    |docker入门介绍|Lab|赵勇|
 |cpp/helloc     |C语言入门回顾，这里主要介绍与C语言重叠的部分，包含宏定义，变量，函数，循环体，指针，函数指针，数组，结构体，联合体等部分，编写简单函数库，并使用Makefile进行编译|Tutorial|
 |cpp/hellocpp   |C++语言入门回顾，介绍引用，重载，类成员函数，继承多态，编写简单函数库，并使用Makefile进行编译，引入qmake，Debug|Tutorial|
-|cpp/stl        |STL介绍，引入模板类，介绍vector,list,map,set等，练习编写自己的list实现|Tutorial|
+|cpp/stl        |STL介绍，引入模板类，介绍vector,list,map,set等，练习编写自己的list实现|Tutorial|程诚|
 |cpp/cpp11      |C++11标准介绍，引入多线程，智能指针，原子锁，信号量等概念，练习多线程中使用智能指针，原子锁，信号量等|Tutorial|
-|cpp/style      |介绍GoogleCppStyle，强调编程风格，练习自己实现一个智能指针模板类，大家讨论各自的代码中存在什么问题|Tutorial|
-|cpp/qt         |介绍基本的Qt界面编程，并带着学员实现一个简单的界面程序|Tutorial|
-|cpp/ros        |介绍ROS机器人操作系统，并带着学员实现一个简单的ROS通信程序，课程要求学员预习并提前安装ROS库|Tutorial|
+|cpp/style      |介绍GoogleCppStyle，强调编程风格，练习自己实现一个智能指针模板类，大家讨论各自的代码中存在什么问题|Tutorial|马文科|
+|cpp/qt         |介绍基本的Qt界面编程，并带着学员实现一个简单的界面程序|Tutorial|王伟|
+|cpp/ros        |介绍ROS机器人操作系统，并带着学员实现一个简单的ROS通信程序，课程要求学员预习并提前安装ROS库|Tutorial|马文科|
 |cpp/opengl     |课程介绍基本的OpenGL操作，并实践显示简单的模型元素|Tutorial|
 |cpp/effectivecpp|介绍EffectiveC++中的部分内容，并带着学员反思之前程序中存在的问题|Tutorial|
 |python/hellopython|编程语言特性，程序结构，基础技术框架，编程风格，对象特性，核心数据类型，字符串，列表，元祖，字典，表达式与运算符|Tutorial|
 |python/more    |if,while,for,迭代器，生成器，文件对象，os模块，os模块常用接口，函数，类,继承，重载|Tutorial|
 |python/module  |模块基础，模块机制，异常处理，常用科学计算模块|Tutorial|
-|slam/summary   |初识SLAM，什么是SLAM，SLAM研究包含什么内容，如何开展SLAM研究，SLAM的未来|Lecture|
+|slam/summary   |初识SLAM，什么是SLAM，SLAM研究包含什么内容，如何开展SLAM研究，SLAM的未来|Lecture|张咪|
+|slam/cv        |图像处理相关,opencv入门介绍|Tutorial|王伟|
 |slam/geo2d3d   |二维，三维中的点，线，面和线性变换,思考题讨论|Tutorial|
-|slam/opt_linear|线性优化入门及实例，利用SVD分解和Eigen库求解最小二乘问题实验，并引入Ransac提升拟合效果|Tutorial|
-|slam/match     |图像匹配，光流，特征点匹配，并求解二维对应warp|Tutorial|
-|slam/camera    |介绍各种传感器，相机模型，畸变模型和标定工具|Tutorial|
-|slam/liegroup  |三维中的李群和李代数，此章理论有深度，建议预习|Lecture|
+|slam/opt_linear|线性优化入门及实例，利用SVD分解和Eigen库求解最小二乘问题实验，并引入Ransac提升拟合效果|Tutorial|程诚|
+|slam/match     |图像匹配，光流，特征点匹配，并求解二维对应warp|Tutorial|程诚|
+|slam/camera    |介绍各种传感器，相机模型，畸变模型和标定工具|Tutorial|杨君|
+|slam/liegroup  |三维中的李群和李代数，此章理论有深度，建议预习|Lecture|范帝凯|
 |slam/opt_nolinear|非线性优化入门及实例，Ceres实例求解标定参数|Tutorial|
 |slam/orbslam   |ORBSLAM代码结构解析|Lecture|
 |slam/gorbslam  |ORBSLAM的GSLAM实现，将在后续的课程中带着大家逐步完善它|Tutorial|
 |slam/initialize|两帧重建介绍及实验,完成GSLAM-ORBSLAM中的初始化并显示|Tutorial|
-|slam/pnp       |PnP方法介绍和代码实现|Tutorial|
+|slam/pnp       |PnP方法介绍和代码实现|Tutorial|程诚|
 |slam/triangulate|地图生成和三角化|Tutorial|
 |slam/dataassociation|地图数据关联|Tutorial|
-|slam/ba        |BundleAdjust方法介绍和代码实现|Tutorial|
+|slam/ba        |BundleAdjust方法介绍和代码实现|Tutorial|程诚|
 |slam/loopdetect|回环检测介绍和代码实现|Tutorial|
-|slam/icp       |ICP方法和代码实现|Tutorial|
+|slam/icp       |ICP方法和代码实现|Tutorial|王伟|
 |slam/posegraph |位姿图优化|Tutorial|
 |slam/direct    |直接法|Lecture|
 |slam/vins      |VINS代码解析|Lecture|
 |slam/mapfusion |讲解MapFusion框架，并实践编写一个最简单的Map2DFusion插件|Tutorial|王伟|
-|slam/dense     |讲解稠密重建的方法，并时间编写一个最简单的稠密重建程序|Tutorial|
+|slam/dense     |讲解稠密重建的方法，并时间编写一个最简单的稠密重建程序|Tutorial|杨君|
 |slam/mesher    |讲解如何构建三角网格模型并进行纹理贴图|Tutorial|张咪|
 |ai/summary     |初识人工智能，什么是人工智能，如何开展人工智能研究，人工智能的未来|
 |ai/mlbasic     |机器学习基础，机器学习涉及的基本点|
@@ -93,8 +94,8 @@ Lesson中途可以适当休息，或者安排其他活动。以下是全部Lesso
 |ai/largeScaleLearning|大规模深度学习涉及的技术点，GPU,分布式，模型压缩,动态结构，FPGA硬件|
 
 
-## 学习课表（2018-07-08月）
-学习课表是根据情况从课程列表选择一部分课程进行讲述，对于未开课课程请学员根据自身情况自学。
+## 3. 学习课表（2018-07-08月）
+学习课表是根据情况从课程列表选择一部分课程进行讲述，对于未开课课程请学员根据自身情况自学。以下课程中的基础类为必修，对于SLAM方向学员来说AI为选修，对于AI方向学员来说SLAM为选修。
 
 |日期|上午(09：00 - 12：00)|下午( 14：30 - 17：30)|晚上(19：00 - 22：00)|
 |---|:---:|:---:|:---:|
@@ -123,12 +124,40 @@ Lesson中途可以适当休息，或者安排其他活动。以下是全部Lesso
 |23 |slam/vins        |cpp/effectivecpp   |
 |24 |tool/latex       |tool/mendeley|
 
-## 课程准备说明
+## 4. 课程准备说明
+
+每个课程都包含:
+
+- doc
+- README.md (包含课程介绍,[说明],[大作业])
 
 注意事项：
+
 - 请控制每个Lesson上课时间不多于3小时
+ 
+
+## 5. TODO
+### 5.1. 文档整理方式&规则
+
+- 如何更容易上手?
 
 
+### 5.2. 上课模式?
+按课表进行上课or(每天固定时间答疑)or每周固定时间答疑
 
+### 5.3. README模板
+```
+# 课程名称
+## 1. 本课程介绍
+README是用来给读者准备的课程说明
 
+## 2. 如何学本课程?
+可以参考示例/cpp/stl课程的写法.
+每个README都应包含且仅包含四个标题.
+
+## 3. 课程目录
+
+## 4. 课程作业
+无
+```
 
