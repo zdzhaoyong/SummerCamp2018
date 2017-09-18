@@ -34,7 +34,7 @@ Lesson中途可以适当休息，或者安排其他活动。以下是全部Lesso
 |tool/linux     |Linux入门，常用工具介绍，Bash命令ShellToolkit，cd,ls,echo,apt,ssh,dpkg,locate等，Bash编程实践|Tutorial||
 |tool/git       |git工具介绍和协作开发实践|Lab|张咪|
 |tool/markdown  |markdown语言介绍和使用实验课程|Lab|马文科|
-|tool/notebook  |ipython notebook介绍和使用实验课程|Lab|AI组|
+|tool/notebook  |ipython notebook介绍和使用实验课程|Lab|冷鹏宇|
 |tool/cmake     |介绍编译原理，引入CMake，并练习使用cmake进行编译，介绍PICMake，练习使用PICMake进行编译，Linux下编写简单包含三方库本地库的工程，并分别用Makefile，qmake，CMake编译|Lab|[王伟]|
 |tool/latex     |latex语言介绍和学习实践|Lab|张咪|
 |tool/docmanage |mendeley等文档管理软件|Lab|张咪|
@@ -48,9 +48,9 @@ Lesson中途可以适当休息，或者安排其他活动。以下是全部Lesso
 |cpp/ros        |介绍ROS机器人操作系统，并带着学员实现一个简单的ROS通信程序，课程要求学员预习并提前安装ROS库|Tutorial|马文科|
 |cpp/opengl     |课程介绍基本的OpenGL操作，并实践显示简单的模型元素|Tutorial|
 |cpp/effectivecpp|介绍EffectiveC++中的部分内容，并带着学员反思之前程序中存在的问题|Tutorial|
-|python/hellopython|编程语言特性，程序结构，基础技术框架，编程风格，对象特性，核心数据类型，字符串，列表，元祖，字典，表达式与运算符|Tutorial|
-|python/more    |if,while,for,迭代器，生成器，文件对象，os模块，os模块常用接口，函数，类,继承，重载|Tutorial|
-|python/module  |模块基础，模块机制，异常处理，常用科学计算模块|Tutorial|
+|python/hellopython|编程语言特性，程序结构，基础技术框架，编程风格，对象特性，核心数据类型，字符串，列表，元祖，字典，表达式与运算符|Tutorial|李清|
+|python/more    |if,while,for,迭代器，生成器，文件对象，os模块，os模块常用接口，函数，类,继承，重载|Tutorial|李清|
+|python/module  |模块基础，模块机制，异常处理，常用科学计算模块|Tutorial|王磊|
 |slam/summary   |初识SLAM，什么是SLAM，SLAM研究包含什么内容，如何开展SLAM研究，SLAM的未来|Lecture|张咪|
 |slam/cv        |图像处理相关,opencv入门介绍|Tutorial|王伟|
 |slam/geo2d3d   |二维，三维中的点，线，面和线性变换,思考题讨论|Tutorial|
@@ -74,24 +74,24 @@ Lesson中途可以适当休息，或者安排其他活动。以下是全部Lesso
 |slam/mapfusion |讲解MapFusion框架，并实践编写一个最简单的Map2DFusion插件|Tutorial|王伟|
 |slam/dense     |讲解稠密重建的方法，并时间编写一个最简单的稠密重建程序|Tutorial|杨君|
 |slam/mesher    |讲解如何构建三角网格模型并进行纹理贴图|Tutorial|张咪|
-|ai/summary     |初识人工智能，什么是人工智能，如何开展人工智能研究，人工智能的未来|
-|ai/mlbasic     |机器学习基础，机器学习涉及的基本点|
-|ai/probability |机器学习中涉及的统计概率以及信息论相关知识点|
-|ai/nn          |神经网络基本介绍|
-|ai/bp          |神经网络反向传播算法,简要包括随机梯度下降法等优化方法|
-|ai/tricks      |关于神经网络的一些技巧包括激活函数、dropput、正则化、loss函数定义选择|
-|ai/optimizer   |深度模型中的优化介绍|
-|ai/caffe       |使用教程，简单源码分析，部分API接口讲解，python接口说明|
-|ai/tensorflow  |使用教程，简单源码分析，部分API接口讲解|
-|ai/cnn         |CNN介绍和实验|
-|ai/lstmRNN     |lstm以及rnn序列神经网络介绍|
-|ai/svmPCA      |SVM介绍和实验，线性因子模型介绍|
-|ai/dlcore      |自编码器，表示学习，结构化概率模型，蒙特卡罗方法，配分函数，近似推断|
-|ai/rbmDBN      |无监督深度学习技术DBN原理介绍，生成模型介绍|
-|ai/GANs        |GANs基本原理和应用介绍|
-|ai/ReforceLearning|强化学习基本原理介绍|
-|ai/yoloFastRCNN|yolo原理与实验,FastRcnn经典框架及技术要点介绍|
-|ai/largeScaleLearning|大规模深度学习涉及的技术点，GPU,分布式，模型压缩,动态结构，FPGA硬件|
+|ai/summary     |初识人工智能，什么是人工智能，如何开展人工智能研究，人工智能的未来|Tutorial|童品模|
+|ai/mlbasic     |机器学习基础，机器学习涉及的基本点|Tutorial|王磊|
+|ai/probability |机器学习中涉及的统计概率以及信息论相关知识点|Tutorial|韩鹏程|
+|ai/nn          |神经网络基本介绍|Tutorial|童品模|
+|ai/bp          |神经网络反向传播算法,简要包括随机梯度下降法等优化方法|Tutorial|李清|
+|ai/tricks      |关于神经网络的一些技巧包括激活函数、dropput、正则化、loss函数定义选择|Tutorial|冷鹏宇|
+|ai/optimizer   |深度模型中的优化介绍|Tutorial|冷鹏宇|
+|ai/caffe       |使用教程，简单源码分析，部分API接口讲解，python接口说明|Tutorial|韩鹏程|
+|ai/tensorflow  |使用教程，简单源码分析，部分API接口讲解|Tutorial|王磊|
+|ai/cnn         |CNN介绍和实验|Tutorial|冷鹏宇|
+|ai/lstmRNN     |lstm以及rnn序列神经网络介绍|Tutorial|王磊|
+|ai/svmPCA      |SVM介绍和实验，线性因子模型介绍|Tutorial|李清|
+|ai/dlcore      |自编码器，表示学习，结构化概率模型，蒙特卡罗方法，配分函数，近似推断|Tutorial|韩鹏程|
+|ai/rbmDBN      |无监督深度学习技术DBN原理介绍，生成模型介绍|Tutorial|王磊|
+|ai/GANs        |GANs基本原理和应用介绍|Tutorial|韩鹏程|
+|ai/ReforceLearning|强化学习基本原理介绍|Tutorial|李清|
+|ai/yoloFastRCNN|yolo原理与实验,FastRcnn经典框架及技术要点介绍|Tutorial|冷鹏宇|
+|ai/largeScaleLearning|大规模深度学习涉及的技术点，GPU,分布式，模型压缩,动态结构，FPGA硬件|Tutorial|韩鹏程|
 
 
 ## 3. 学习课表（2018-07-08月）
