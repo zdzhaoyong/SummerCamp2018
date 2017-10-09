@@ -1,6 +1,6 @@
-#Python基础 （1）
-##语句
-####条件语句
+# Python基础 （1）
+## 语句
+#### 条件语句
 Python条件语句是通过一条或多条语句的执行结果（True或者False）来决定执行的代码块。
 
 可以通过下图来简单了解条件语句的执行过程:
@@ -92,11 +92,11 @@ else:
 
 
 ***
-####循环语句
+#### 循环语句
 循环语句允许我们执行一个语句或语句组多次，下面是在大多数编程语言中的循环语句的一般形式：
 ![](loop_architecture.jpg)
 Python提供了for循环和while循环（在Python中没有do..while循环）:
-#####while循环语句
+##### while循环语句
 Python 编程中 while 语句用于循环执行程序，即在某条件下，循环执行某段程序，以处理需要重复处理的相同任务。其基本形式为：
 
 >while 判断条件：
@@ -113,7 +113,7 @@ while (count < 9):
  
 print "Good bye!"
 ```
-#####for循环语句
+##### for循环语句
 Python for循环可以遍历任何序列的项目，如一个列表或者一个字符串。
 for循环的语法格式如下：
 >for iterating_var in sequence:

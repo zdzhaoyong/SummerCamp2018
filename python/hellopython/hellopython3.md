@@ -1,5 +1,5 @@
-#初识python（3）
-##核心数据结构 -- 列表
+# 初识python（3）
+## 核心数据结构 -- 列表
 序列是Python中最基本的数据结构。序列中的每个元素都分配一个数字 - 它的位置，或索引，第一个索引是0，第二个索引是1，依此类推。
 
 Python有6个序列的内置类型，但最常见的是列表和元组。
@@ -32,7 +32,7 @@ print "list2[1:5]: ", list2[1:5]
 
 ```
 ***
-####更新列表
+#### 更新列表
 你可以对列表的数据项进行修改或更新，你也可以使用append()方法来添加列表项，如下所示：
 
 ```python
@@ -47,7 +47,7 @@ print "New value available at index 2 : "
 print list[2];
 ```
 ***
-####删除列表元素
+#### 删除列表元素
 可以使用 del 语句来删除列表的的元素，如下实例：
 
 ```python
@@ -61,7 +61,7 @@ print "After deleting value at index 2 : "
 print list1;
 ```
 ***
-####Python列表脚本操作符
+#### Python列表脚本操作符
 列表对 + 和 * 的操作符与字符串相似。+ 号用于组合列表，* 号用于重复列表。
 
 如下所示：
@@ -74,7 +74,7 @@ print list1;
 |3 in [1, 2, 3]|True|元素是否存在于列表中
 |for x in [1, 2, 3]: print x,|1 2 3|迭代
 ***
-####Python列表截取
+#### Python列表截取
 Python 的列表截取实例如下：
 ```python
 >>> L = ['Google', 'Runoob', 'Taobao']
@@ -87,7 +87,7 @@ Python 的列表截取实例如下：
 
 ```
 ***
-####Python列表函数&方法
+#### Python列表函数&方法
 Python包含以下函数:
 - cmp(list1, list2)
 比较两个列表的元素
