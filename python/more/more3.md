@@ -35,10 +35,10 @@ Python 提供了必要的函数和方法进行默认情况下的文件基本操�
 以下是和file对象相关的所有属性的列表： 
 
 |属性	|描述|
-|---|
-|file.closed|	返回true如果文件已被关闭，否则返回false。
-|file.mode|	返回被打开文件的访问模式。
-|file.name|	返回文件的名称。
+|---|:---:|
+|file.closed|	返回true如果文件已被关闭，否则返回false。|
+|file.mode|	返回被打开文件的访问模式。|
+|file.name|	返回文件的名称。|
 |file.softspace|	如果用print输出后，必须跟一个空格符，则返回false。否则返回true。|
 ###### close()方法
  File 对象的 close（）方法刷新缓冲区里任何还没写入的信息，并关闭该文件，这之后便不能再进行写入。
