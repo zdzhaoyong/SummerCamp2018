@@ -70,13 +70,15 @@ ROS具有清晰的文档、好用的调试工具（Rviz、rqt_plot、ROS_Debug�
 [cite handsfree 8.3 Object Pick Place](https://github.com/HANDS-FREE/HANDS-FREE.github.io/wiki/8.3-Object-Pick-Place)
 
 如果你能按照我说的完成前几步的话，你应该已经会用MoveIt!，并能用其做简单的运动规划了。当然，如果你想成为机械臂开发大神的话，你还需要重点学习MoveIt!的代码API。MoveIt!的API不少，你需要多尝试，找到最适合你们机械臂使用的API（推荐C++的API）。
+
 在MoveIt!中，碰撞检测使用的是FCL库。你需要了解和学习FCL的API，并将其融入到机械臂的运动规划中去。
+
 MoveIt!默认使用OMPL库来做运动规划，你可以去OMPL的官网仔细地学习一下它的使用方法。如果你有时间的话，也可以研究一下其他几种规划器的效果如何，比如STOMP、SBPL、CHOMP等。
 如果你认为你已经对MoveIt!的使用了如指掌，你可以尝试挑战一下难度——根据你们自己机械的实际情况，手写IK解算插件并将其集成到OMPL中去。
+
 完成以上之后，你如果发现自己还想在机械臂领域有更多的提升空间，那工程开发显然已经不能满足你的需求了，你需要阅读机械臂方面的论文以及专业书籍。这里我推荐《Robotics - Modelling, Planning and Control》这本书，里面深入地讲解了机器人的建模、轨迹规划以及运动控制等相关内容。
 
-
-网站
+网站<br>
 [MoveIt!官方文档](http://moveit.ros.org/documentation)
 
 西工大一小学生：<br>
@@ -115,20 +117,20 @@ yaked：<br>
 
 ## 4. 其它资源
 书籍:
-《Effective_Robotics_Programming_with_ROS_Third_Edition》
-《Learning_ROS_for_Robotics_Programming_Second_Edition》
-《Mastering_ROS_for_Robotics_Programming》
-《Programming_Robots_with_ROS》
-《Robot_Operating_System(ROS)_The_Complete_Reference》
-《ROS_By_Example_2_Indigo》
-《ROS_Robotics_By_Example》
+《Effective_Robotics_Programming_with_ROS_Third_Edition》<br>
+《Learning_ROS_for_Robotics_Programming_Second_Edition》<br>
+《Mastering_ROS_for_Robotics_Programming》<br>
+《Programming_Robots_with_ROS》<br>
+《Robot_Operating_System(ROS)_The_Complete_Reference》<br>
+《ROS_By_Example_2_Indigo》<br>
+《ROS_Robotics_By_Example》<br>
 
 网站：
 
-[Exbot](http://blog.exbot.net/)
-[HandsFree](https://github.com/HANDS-FREE/HANDS-FREE.github.io/wiki)
-[官方教程的中文翻译](http://wiki.ros.org/cn/ROS/Tutorials/)
-[创客智造](http://www.ncnynl.com/)
+[Exbot](http://blog.exbot.net/)<br>
+[HandsFree](https://github.com/HANDS-FREE/HANDS-FREE.github.io/wiki)<br>
+[官方教程的中文翻译](http://wiki.ros.org/cn/ROS/Tutorials/)<br>
+[创客智造](http://www.ncnynl.com/)<br>
 
 网页：
 [ROS机器人操作系统相关书籍、资料和学习路径](http://blog.csdn.net/zhangrelay/article/details/78179097)
@@ -137,6 +139,7 @@ yaked：<br>
 
 作业1：
 在Ubuntu下安裝配置ROS，学完[Beginner Level](http://wiki.ros.org/ROS/Tutorials)的20节教程。
+
 作业2：
 在Stage 2D仿真环境下，实现机器人的建图和自主导航。
 
