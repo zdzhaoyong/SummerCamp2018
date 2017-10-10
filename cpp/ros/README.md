@@ -117,6 +117,7 @@ yaked：<br>
 
 ## 4. 其它资源
 书籍:
+
 《Effective_Robotics_Programming_with_ROS_Third_Edition》<br>
 《Learning_ROS_for_Robotics_Programming_Second_Edition》<br>
 《Mastering_ROS_for_Robotics_Programming》<br>
@@ -133,6 +134,7 @@ yaked：<br>
 [创客智造](http://www.ncnynl.com/)<br>
 
 网页：
+
 [ROS机器人操作系统相关书籍、资料和学习路径](http://blog.csdn.net/zhangrelay/article/details/78179097)
 
 ## 5. 课程作业
