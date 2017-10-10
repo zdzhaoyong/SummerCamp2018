@@ -32,9 +32,9 @@ Lesson中途可以适当休息，或者安排其他活动。以下是全部Lesso
 |课程文件夹|课程描述|课程类型|主讲人|
 | ------------- |:-------------|:--------:|:--------:|
 |tool/linux     |Linux入门，常用工具介绍，Bash命令ShellToolkit，cd,ls,echo,apt,ssh,dpkg,locate等，Bash编程实践|Tutorial||
-|(tool/git)[git]       |git工具介绍和协作开发实践|Lab|张咪|
-|(tool/markdown)[markdown]  |markdown语言介绍和使用实验课程|Lab|马文科|
-|(tool/notebook)[notebook]  |ipython notebook介绍和使用实验课程|Lab|冷鹏宇|
+|[tool/git][git]       |git工具介绍和协作开发实践|Lab|张咪|
+|[tool/markdown][markdown]  |markdown语言介绍和使用实验课程|Lab|马文科|
+|[tool/notebook][notebook]  |ipython notebook介绍和使用实验课程|Lab|冷鹏宇|
 |tool/cmake     |介绍编译原理，引入CMake，并练习使用cmake进行编译，介绍PICMake，练习使用PICMake进行编译，Linux下编写简单包含三方库本地库的工程，并分别用Makefile，qmake，CMake编译|Lab|[王伟]|
 |tool/latex     |latex语言介绍和学习实践|Lab|张咪|
 |tool/docmanage |mendeley等文档管理软件|Lab|张咪|
