@@ -32,15 +32,15 @@ Lesson中途可以适当休息，或者安排其他活动。以下是全部Lesso
 |课程文件夹|课程描述|课程类型|主讲人|
 | ------------- |:-------------|:--------:|:--------:|
 |tool/linux     |Linux入门，常用工具介绍，Bash命令ShellToolkit，cd,ls,echo,apt,ssh,dpkg,locate等，Bash编程实践|Tutorial||
-|tool/git       |git工具介绍和协作开发实践|Lab|张咪|
-|tool/markdown  |markdown语言介绍和使用实验课程|Lab|马文科|
-|tool/notebook  |ipython notebook介绍和使用实验课程|Lab|冷鹏宇|
+|(tool/git)[git]       |git工具介绍和协作开发实践|Lab|张咪|
+|(tool/markdown)[markdown]  |markdown语言介绍和使用实验课程|Lab|马文科|
+|(tool/notebook)[notebook]  |ipython notebook介绍和使用实验课程|Lab|冷鹏宇|
 |tool/cmake     |介绍编译原理，引入CMake，并练习使用cmake进行编译，介绍PICMake，练习使用PICMake进行编译，Linux下编写简单包含三方库本地库的工程，并分别用Makefile，qmake，CMake编译|Lab|[王伟]|
 |tool/latex     |latex语言介绍和学习实践|Lab|张咪|
 |tool/docmanage |mendeley等文档管理软件|Lab|张咪|
 |tool/docker    |docker入门介绍|Lab|赵勇|
-|cpp/helloc     |C语言入门回顾，这里主要介绍与C语言重叠的部分，包含宏定义，变量，函数，循环体，指针，函数指针，数组，结构体，联合体等部分，编写简单函数库，并使用Makefile进行编译|Tutorial|
-|cpp/hellocpp   |C++语言入门回顾，介绍引用，重载，类成员函数，继承多态，编写简单函数库，并使用Makefile进行编译，引入qmake，Debug|Tutorial|
+|cpp/helloc     |C语言入门回顾，这里主要介绍与C语言重叠的部分，包含宏定义，变量，函数，循环体，指针，函数指针，数组，结构体，联合体等部分，编写简单函数库，并使用Makefile进行编译|Tutorial|杨君|
+|cpp/hellocpp   |C++语言入门回顾，介绍引用，重载，类成员函数，继承多态，编写简单函数库，并使用Makefile进行编译，引入qmake，Debug|Tutorial|贺宇|
 |cpp/stl        |STL介绍，引入模板类，介绍vector,list,map,set等，练习编写自己的list实现|Tutorial|程诚|
 |cpp/cpp11      |C++11标准介绍，引入多线程，智能指针，原子锁，信号量等概念，练习多线程中使用智能指针，原子锁，信号量等|Tutorial|
 |cpp/style      |介绍GoogleCppStyle，强调编程风格，练习自己实现一个智能指针模板类，大家讨论各自的代码中存在什么问题|Tutorial|马文科|
@@ -93,6 +93,23 @@ Lesson中途可以适当休息，或者安排其他活动。以下是全部Lesso
 |ai/yoloFastRCNN|yolo原理与实验,FastRcnn经典框架及技术要点介绍|Tutorial|冷鹏宇|
 |ai/largeScaleLearning|大规模深度学习涉及的技术点，GPU,分布式，模型压缩,动态结构，FPGA硬件|Tutorial|韩鹏程|
 
+[caffe]: ai/caffe/README.md
+[gans]: ai/gans/README.md
+[notebook]: tool/notebook/README.md
+[cnn]: ai/cnn/README.md
+[yoloFastRCNN]: ai/yoloFastRCNN/README.md
+[aitricks]: ai/aitricks/README.md
+[aiOptimizer]: ai/Optimizer/README.md
+[markdown]: tool/markdown/README.md
+[ros]: cpp/ros/README.md
+[hellopython]: python/hellopython/README.md
+[pythonmore]: python/more/README.md
+[bp]: ai/bp/README.md
+[liegroup]: slam/liegroup/README.md
+[match]: slam/match/README.md
+[stl]: cpp/stl/README.md
+[git]: tool/git/README.md
+[docker]: tool/docker/README.md
 
 ## 3. 学习课表（2018-07-08月）
 学习课表是根据情况从课程列表选择一部分课程进行讲述，对于未开课课程请学员根据自身情况自学。以下课程中的基础类为必修，对于SLAM方向学员来说AI为选修，对于AI方向学员来说SLAM为选修。
