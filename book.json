@@ -108,6 +108,10 @@
 "maxDepth": 3,
 "skipFirstH1": true
 },
+"edit-link": {
+"base": "https://github.com/zdzhaoyong/SummerCamp2018/edit/master",
+"label": "Edit This Page"
+},
 "sitemap-general": {
 "prefix": "http://zhaoyong.win"
 },
