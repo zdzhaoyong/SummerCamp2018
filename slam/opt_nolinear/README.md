@@ -104,6 +104,7 @@ bool solvePnP(  SE3& world2camera,
     int    maxItNum=50;
     double lambda=0.01;
     double dSigmaSquared=0.01;
+    double lambdaFactor=10;
 
     GSLAM::SE3 w2c=world2camera;
     double curError=cacuSumError(w2c,objectPoints,imagePoints,camera,dSigmaSquared);
@@ -143,12 +144,13 @@ bool solvePnP(  SE3& world2camera,
         double facError=errorNew/curError;
         if(facError>=1)
         {
-            lambda*=10;
+            lambda*=lambdaFactor;
         }
         else
         {
             w2c=w2c_new;
             curError=errorNew;
+            lambda/=lambdaFactor;
 
 //            printf("iter:%d,curError:%lf,facError:%lf\n",it,curError,facError);
 //            std::cout<<"inc:"<<inc.transpose()<<std::endl;
@@ -168,7 +170,7 @@ int main(int argc,char** argv)
 {
     svar.ParseMain(argc,argv);
     // Prepare simulation data
-    int N=svar.GetInt("SimulateNumber",200);//number of matches
+    int N=svar.GetInt("SimulateNumber",2000);//number of matches
     GSLAM::SE3                                        groundPose,estPose;
     std::vector<Point3d> objectPoints;
     std::vector<Point2d> imagePoints;
@@ -205,6 +207,7 @@ int main(int argc,char** argv)
 
     return 0;
 }
+
 ```
 
 ### 3.4. 稀疏非线性优化？图优化
